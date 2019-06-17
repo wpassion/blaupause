@@ -17,7 +17,7 @@ class ComposerScripts
 
         $io = $event->getIO();
 
-        $projectName = isset($args['directory']) ?? 'blaupause';
+        $projectName = $args['directory'] ?? 'blaupause';
         $projectName = $io->ask('Enter the project identifier [<comment>' . $projectName . '</comment>]: ', $projectName);
 
         self::replace(__DIR__ . '/.distignore', $projectName);
