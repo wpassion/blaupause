@@ -6,11 +6,11 @@ define('ROOT_PATH', __DIR__);
 
 // -----------------------------------------------------------------------------
 
-define('WP_HOME', 'http://wordpress-boilerplate.localhost');
+define('WP_HOME', 'http://blaupause.localhost');
 
 // -----------------------------------------------------------------------------
 
-define('DB_NAME', 'wordpress-boilerplate');
+define('DB_NAME', 'blaupause');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
